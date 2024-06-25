@@ -1,0 +1,38 @@
+{
+  "name": "investment",
+  "version": "1.0.0",
+  "description": "投资理财笔记",
+  "keywords": [
+    "vitepress",
+    "博客",
+    "blog"
+  ],
+  "homepage": "https://github.com/hk4114/investment",
+  "license": "MIT",
+  "author": "hk4114",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "gray-matter": "^4.0.3",
+    "vite": "^5.2.11",
+    "vitepress": "1.2.0",
+    "vue": "^3.4.27"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  },
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
