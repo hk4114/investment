@@ -20,18 +20,19 @@ export default defineConfig({
       { text: "Examples", link: "/markdown-examples" },
     ],
 
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          // todo
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: "Examples",
+    //     items: [
+    //       // todo
+    //       { text: "Markdown Examples", link: "/markdown-examples" },
+    //       { text: "Runtime API Examples", link: "/api-examples" },
+    //     ],
+    //   },
+    // ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/hk4114/investment" },
+      { icon: "x", link: "https://x.com/pieinthewind/" },
     ],
     // 回到顶部展示文本
     returnToTopLabel: "回到顶部",

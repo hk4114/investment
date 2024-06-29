@@ -11,26 +11,17 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: thirty-projects
-      link: /thirty-projects/01blog
+      text: 开户
+      link: /article/account
     - theme: alt
       text: read note
       link: /readnote/tk
 
 features:
-  - title: Feature A
+  - title: 赚钱
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 副业
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 稳定
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
-## Getting Started
-
-You can get started using VitePress right away using `npx`!
-
-```sh
-npm init
-npx vitepress init
-```
